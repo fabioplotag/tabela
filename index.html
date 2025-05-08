@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Manutenção Veicular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Manutenção Veicular</h1>
+    <form id="maintenanceForm">
+        <input type="date" id="date" required>
+        <input type="text" id="service" placeholder="Serviço realizado" required>
+        <input type="number" id="cost" placeholder="Custo (R$)" required>
+        <button type="submit">Adicionar</button>
+    </form>
+    <table id="maintenanceTable">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Serviço</th>
+                <th>Custo (R$)</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
